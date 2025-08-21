@@ -7,8 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:9191/ecommerce/login")
-@CrossOrigin(origins = "http://localhost:9191/ecommerce/signup")// safer than "*"
+@CrossOrigin(origins = "http://localhost:9191")fer than "*"
 public class AuthController {
     private final UserService userService;
 
